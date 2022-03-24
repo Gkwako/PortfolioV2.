@@ -133,6 +133,7 @@ section:nth-of-type(2) > span:nth-of-type(2) {
 .about img{
     height: auto;
     width: 430px;
+    padding-right: 1em;
 }
 
 .about-text{
@@ -185,17 +186,14 @@ button{
     border-radius: 5px;
     transition: .4s;
 }
-
 button:hover{
     background-color: transparent;
     border: 2px solid #EDB3D8;
     cursor: pointer;
 }
-
 button span:nth-of-type(1){
     color: var(--green-color);
 }
-
 button span:nth-of-type(2){
     color: var(--pink-color);
 }
@@ -224,7 +222,7 @@ button span:nth-of-type(2){
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background-color: #191919;
+    background-color: #191919; 
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -232,20 +230,34 @@ button span:nth-of-type(2){
     text-align: center;
 }
 
-.card i{
-    /* font-size: 50px; */
-    display: block;
-    /* text-align: center; */
-    margin: 25px 0px;
-    /* color: var(--green-color); */
+.card:nth-of-type(1){
+    background-image: url("../img/louvre.jpg");
+    background-size: cover;
+}
+.card:nth-of-type(2){
+    background-image: url("../img/padel.png");
+    background-size: cover;
+}
+.card:nth-of-type(3){
+    background-image: url("../img/donut.png");
+    background-size: cover;
 }
 
 .card h5{
     font-family: var(--text-font-family);
     font-size: 1.4em;
     letter-spacing: 2px;
-    margin-bottom: 25px;
+    margin: 20px;
 }
+
+.card h6{
+    font-family: var(--text-font-family);
+    font-size: .8em;
+    letter-spacing: 2px;
+    margin: 15px;
+    color: var(--pink-color);
+}
+
 
 .pra p{
     font-family: var(--text-font-family);
