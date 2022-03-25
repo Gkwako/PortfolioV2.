@@ -198,6 +198,8 @@ button span:nth-of-type(2){
     color: var(--pink-color);
 }
 
+
+/* my work */
 .work{
     background-color: var(--black-color);
     width: 100%;
@@ -343,3 +345,102 @@ footer p:nth-child(2){
 
 
 /* https://www.youtube.com/watch?v=lgeoAUvoRJU */
+
+
+
+/*------------------FED PAGINA-------------------*/
+.container-case{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color:#191919;
+}
+
+.case h5{
+    font-family: var(--text-font-family);
+    font-size: 2em; 
+}
+    .case p{
+    font-family: var(--text-font-family);
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    }
+
+
+/*  case styling */
+.about-case{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:black;
+}
+
+.about-case img{
+    height: auto;
+    width: 250px;
+    padding-right: 1em;
+}
+
+.case-text{
+    width: 550px;
+}
+
+.main-case{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.case-text h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.case-text h5{
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.case-text h5 span:nth-of-type(1){
+    color: var(--pink-color);
+}
+.case-text h5 span:nth-of-type(2){
+    color: var(--green-color);
+}
+
+.case-text p{
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    font-size: .6em;
+    margin-bottom: 1em;
+}
+
+
+/* .container-proces{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color:#191919;
+}
+
+.proces h5{
+    font-family: var(--text-font-family);
+    font-size: 2em; 
+}
+    .proces p{
+    font-family: var(--text-font-family);
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    } */
